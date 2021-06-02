@@ -1,0 +1,73 @@
+body{
+   /*background: url("https://wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-19.png"); */
+  background-image: url("../images/background2.jpg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  /*background-position: bottom;*/
+   /*background: url("https://wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-10.jpg") */
+   /*background-color: black;*/
+}
+
+/*h1 {*/
+/*  color: white;*/
+/*  text-shadow: 0px 4px 3px black,*/
+/*             0px 8px 13px black,*/
+/*             0px 18px 23px black;*/
+/*}*/
+
+#CodeList {
+  margin: 15% 40% 0 40%;
+}
+
+.CodeButton {
+    margin: 5% 0 5% 0;
+    width: 100%;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.show {
+  display: block;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.dropdown-item:hover{
+    color:#28a745;
+}

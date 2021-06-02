@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/signin.css">
+	<title>Login</title>
+        <link rel="stylesheet" type="text/css" href="./css/home.css">
+</head>
+<body background="./images/background2.jpg" style="background-position: center; background-repeat: no-repeat; background-size: cover;">
+	<header>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-success fixed-top" style="opacity: 0.9;">
+      <a href=""></a>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="./index.php">Home</a>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Languages
+        </a>
+        <div class="dropdown-menu bg-success">
+            <a class="dropdown-item" href="ccompiler.php" >C</a>
+            <a class="dropdown-item" href="cppcompiler.php" >C++</a>
+            <a class="dropdown-item" href="javacompiler.php" >Java</a>
+            <a class="dropdown-item" href="pythoncompiler.php" >Python</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Profile
+        </a>
+        <div class="dropdown-menu bg-success">
+          <a class="dropdown-item" href="./myprofile.php" >Edit Profile</a>
+          <a class="dropdown-item" href="./myfiles.php" >My Files</a>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="./feedback.html">Feedback</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+	<form class="form-signin jumbotron" id="login" action="database/login.php" method="post">
+	  <img class="mb-4" src="" alt="" width="72" height="72">
+	  <h1 class="d-flex h1 mb-3 font-weight-normal justify-content-center">Login</h1>
+	  <label for="uname">Username/Email address:</label>
+	  <input name="username" type="text" id="uname" class="form-control" placeholder="Username" required autofocus>
+	  <label for="inputPassword">Password:</label>
+	  <input name="password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+	  <button class="btn btn-lg btn-success btn-block" type="submit">Login</button>
+	</form>
+</body>
+</html>
