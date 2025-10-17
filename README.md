@@ -1,4 +1,4 @@
-# onlineCompiler
+# Online Compiler
 An online compiler which lets you compile your code and save them.
 So, a user can make an account in this website and save different files in his account that can be accessed any time.
 The user will set his/her username and password so that user can login anytime.
