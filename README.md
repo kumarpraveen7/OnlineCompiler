@@ -1,69 +1,88 @@
 # 🧠 Online Compiler
 
 ## 📘 Overview  
-The **Online Compiler** is a web-based platform that allows users to **write, compile, run, and save code** in multiple programming languages — all directly from their browser.  
-It provides a simple and efficient way for users to manage their code online, access it anytime, and continue coding seamlessly across sessions.
+The **Online Compiler** is a web-based platform that allows users to **write, compile, run, and save code** online — supporting multiple programming languages like **C, C++, Java, and Python**.  
+Users can create an account, manage their code files, and access them anytime, from anywhere.
 
 ---
 
 ## 🚀 Features
 
 ### 👤 User Authentication  
-- Create a personal account with a unique **username** and **password**.  
-- **Login** securely anytime to access saved files.  
-- Update personal details through the **Edit Profile** section (name, username, password).  
+- Register with a **unique username and password**.  
+- **Login** securely to access your saved code files.  
+- **Edit Profile** option available in the navigation bar to update your name, username, and password.  
 
 ---
 
 ### 💻 Code Editor & Compilation  
 - Supported programming languages:
-  - 🟦 C  
-  - 🟩 C++  
-  - ☕ Java  
-  - 🐍 Python  
+  - 🟦 **C**
+  - 🟩 **C++**
+  - ☕ **Java**
+  - 🐍 **Python**
 
-- Key features:
-  - Create new code files by selecting the desired programming language.  
-  - Use an **integrated text editor** to write and edit code.  
-  - **Compile and run** code within the browser environment.  
-  - Provide **custom input** for programs during execution.  
-  - View **output** and **error messages** instantly.  
+- Key functionalities:
+  - Create new code files by selecting a programming language.  
+  - Use an **integrated text editor** to write and modify code.  
+  - **Compile and run** programs directly from the browser.  
+  - Provide **custom input** during execution.  
+  - **Error messages** and **program output** are displayed instantly on the output panel.  
 
 ---
 
 ### 📂 File Management  
-- Each user’s files are stored securely and are accessible anytime.  
-- Files are categorized and displayed based on the **selected programming language**.  
-- Easily **revisit, edit, and manage** previously saved files.  
+- Each user’s files are stored securely and linked to their account.  
+- Files are **filtered and displayed** based on the selected programming language.  
+- Users can **view, edit, and re-run** previously saved code anytime.  
 
 ---
 
 ### 💬 Feedback System  
-- Submit **feedback** or suggestions on any topic or issue.  
-- Helps improve the platform through user insights and reviews.  
+- A dedicated **feedback feature** allows users to share suggestions, report bugs, or comment on specific topics.  
+- Helps improve the user experience through continuous feedback.
 
 ---
 
-## 🧩 Technology Stack *(example setup)*  
-> You can modify this section based on your implementation.
+## 🧩 Technology Stack  
 
-| Layer | Technologies |
-|--------|---------------|
-| **Frontend** | React.js / HTML / CSS / JavaScript |
-| **Backend** | Node.js / Express.js |
-| **Database** | MongoDB / MySQL |
-| **Compiler Integration** | Third-party or custom compiler API |
-| **Authentication** | JWT / Session-based |
+| Layer | Technologies Used |
+|--------|--------------------|
+| **Frontend** | HTML, CSS, JavaScript |
+| **Backend** | PHP |
+| **Database** | MySQL |
+| **Compiler Integration** | Third-party or custom compiler APIs for C, C++, Java, and Python |
+| **Authentication** | PHP Sessions & MySQL-based credential management |
+
+---
+
+## ⚙️ How It Works  
+1. **Register / Login** to your account.  
+2. **Select a programming language** and create a new file.  
+3. Write your code in the **editor window**.  
+4. Click **Compile & Run** to execute your program.  
+5. View **output** or **error messages** in the output panel.  
+6. Optionally, **save** your code file for future access.  
 
 ---
 
 ## 🏁 Summary  
-The **Online Compiler** combines the power of a desktop IDE with the accessibility of the web.  
-It’s designed for developers, students, and educators who want a **lightweight**, **accessible**, and **efficient** coding environment to write, test, and save their programs online.
+The **Online Compiler** combines the power of a local IDE with the accessibility of a web app.  
+It’s ideal for developers, students, and educators who want to **code, compile, and save** their work anytime, without installing software locally.
 
 ---
 
 ## 📧 Feedback & Support  
-If you encounter any issues or have suggestions, feel free to use the in-app feedback section or contact the development team directly.
+If you encounter any issues or have suggestions for improvement, please use the in-app feedback form or contact the project maintainers directly.
 
 ---
+
+## 🛠️ Future Enhancements  
+- 🌐 Add support for more programming languages.  
+- ☁️ Enable cloud storage for faster access and scalability.  
+- 📱 Optimize for mobile and tablet devices.  
+- 🔒 Implement JWT-based authentication for enhanced security.  
+
+---
+
+**Made with ❤️ using PHP and MySQL**
